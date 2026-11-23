@@ -1,0 +1,12 @@
+{
+  "students": 70,
+  "duration_sec": 5,
+  "send_hz_per_student": 4,
+  "attempted_patch_messages": 1400,
+  "position_frames_min": 20,
+  "position_frames_max": 20,
+  "position_rows_min": 1400,
+  "position_rows_max": 1400,
+  "elapsed_sec": 5.64,
+  "interpretation": "All clients and the server share one local process/host; no Wi-Fi, WAN, browser 3D or throughput guarantee"
+}

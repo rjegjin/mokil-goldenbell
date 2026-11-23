@@ -1,0 +1,10 @@
+services:
+  goldenbell:
+    build: .
+    restart: unless-stopped
+    environment:
+      HOST: 0.0.0.0
+      PORT: "8080"
+      TEACHER_PASSWORD: "${TEACHER_PASSWORD:?Set a strong teacher password first}"
+    ports:
+      - "127.0.0.1:8080:8080"

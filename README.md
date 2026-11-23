@@ -23,3 +23,11 @@
 출처 표기는 원작자의 수정·재배포 허락을 받았음을 의미하지 않습니다. 공개 배포에 대한 원작자의 허락 또는 별도 라이선스 조건 확인이 필요합니다. 이 저장소에서 원작 코드에 새로운 라이선스를 임의로 부여하지 않습니다.
 
 라이선스가 없는 저장소에 관한 GitHub 안내: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository
+
+## 70명 전체 실시간 동기화 버전 (시험 운영)
+
+- [70명 전체 동기화 소스와 서버 실행 방법](full-sync-70/README.md)
+- [WebSocket 게임 서버](full-sync-70/server.py)
+- [통합 테스트](full-sync-70/test_server.py)
+
+**기존 [GitHub Pages 게임](https://rjegjin.github.io/mokil-goldenbell/)은 이전 정적 Firebase 버전으로 유지됩니다.** 새 버전은 `full-sync-70/` 디렉터리의 Python/aiohttp WebSocket 서버에서 HTML과 소켓을 함께 제공해야 실행됩니다. GitHub Pages에 HTML만 배포해서는 새 게임이 작동하지 않습니다. 행사 전 실제 학교 Wi-Fi와 휴대폰으로 검증하세요.
